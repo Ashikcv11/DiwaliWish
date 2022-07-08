@@ -1,0 +1,70 @@
+<section class="h-100 gradient-form body1" style="background-color: rgb(232, 231, 231);">
+    <div class="container py-5 h-100">
+      <div class="row d-flex justify-content-center align-items-center h-100">
+        <div class="col-xl-10">
+          <div class="card rounded-3 text-black">
+            <div class="row g-0">
+              <div class="col-lg-6 cardb">
+                <div class="card-body p-md-5 mx-md-4">
+  
+                  <div class="text-center">
+                    <!-- <img src="https://mdbcdn.b-cdn.net/img/Photos/new-templates/bootstrap-login-form/lotus.webp"
+                      style="width: 185px;" alt="logo"> -->
+                      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_bGUoUyMIS5ywgvP990zLKahp9M2adxD7fKnv1gktgTEWZEnyjF--oGmkdcXqlpdC7J0&usqp=CAU"
+                       style="width: 130px;" alt="logo">
+                    <h4 class="mt-1 mb-5 pb-1">wishes for your valuable one...</h4>
+                  </div>
+  
+                  <form (ngSubmit)="Sucess()" ngNativeValidate>
+                    <p>Please fill the details</p>
+  
+                    <div class="form-outline mb-4">
+                      <input type="text" id="form2Example11" class="form-control inp"
+                        name="Name" [(ngModel)]= "UserModel.Name" required />
+                      <label class="form-label" for="form2Example11" >Your Name</label>
+                    </div>
+
+                    <div class="form-outline mb-4">
+                        <input type="text" id="form2Example11" class="form-control inp"
+                        name="fName" [(ngModel)]= "UserModel.fName" required />
+                        <label class="form-label" for="form2Example11">Friend Name</label>
+                      </div>
+  
+                    <div class="form-outline mb-4">
+                      <input type="email" id="form2Example22" class="form-control inp" 
+                      name="email" [(ngModel)]= "UserModel.email" required />
+                      <label class="form-label" for="form2Example22">Frined's Mail id</label>
+                    </div>
+  
+                    <div class="text-center pt-1 mb-5 pb-1">
+                      <button class="btn btn-primary btn-block fa-lg gradient-custom-2 mb-3" 
+                      type="submit">Create</button>
+                    </div>
+                  </form>
+  
+                </div>
+              </div>
+              <div class="col-lg-6 d-flex align-items-center gradient-custom-2">
+                <div class="text-white px-3 py-4 p-md-5 mx-md-4">
+                  <h4 class="mb-4">The festival of lights</h4>
+                  <p class="small mb-0">A festival full of sweet childhood memories, a sky full of fireworks, 
+                    a mouth full of sweets, a house full of diyas and a heart full of joy. Wishing you all a very
+                     happy Diwali! </p>
+                </div>
+              </div>
+            </div>
+            <div class="firework"></div>
+            <div class="firework"></div>
+            <div class="firework"></div>
+            <div class="firework"></div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  

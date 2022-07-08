@@ -1,0 +1,94 @@
+.body{
+    width: 100%;
+    height: 730px;
+    background: -webkit-linear-gradient(to right, #ee7724, #d8363a, #dd3675, #b44593);
+    
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to right, #ee7724, #d8363a, #dd3675, #b44593);
+    /* text-align: center; */
+    display: grid;
+    place-items: center;
+}
+
+.form{
+    width: 600px;
+    height: 700px;
+    background-color: rgba(240, 248, 255, 0.783);
+    backdrop-filter: blur(10px);
+    display: grid;
+    place-items: center;
+    border-radius: 5px;
+}
+
+.msg{
+    width: 550px;
+    height: 150px;
+    /* border: 2px solid red; */
+
+}
+
+.person{
+    width: 550px;
+    height: 250px;
+    /* border: 2px solid red; */
+    display: grid;
+    place-items: center;
+    margin-top: -10px;
+
+}
+
+.other{
+    width: 550px;
+    height: 230px;
+    /* border: 2px solid red; */
+    display: grid;
+    place-items: center;
+    margin-top: -10px;
+}
+.line{
+    width: 500px;
+    height: .5px;
+    /* color: #b44593; */
+    background-color: #b44593;
+}
+
+.btn1{
+    width: 300px;
+    background-color: #b44593;
+    color: white;
+    /* margin-bottom: -55px; */
+}
+
+.btn2{
+    margin-top: -50px;
+    width: 300px;
+    background-color: #b4454e;
+    color: white;
+    /* margin-bottom: 15px; */
+
+}
+.btninside{
+
+    position: relative;
+}
+
+.btn3{
+    height: 38px;
+}
+#input{
+    width: 400px;
+    height: 37px;
+    border: 1px solid rgba(123, 123, 123, 0.235);
+    /* margin: 10px; */
+    border-radius: 5px;
+}
+
+.btn4{
+    background-color: rgb(12, 176, 12);
+    color: white;
+}
+
+
+#pdd{
+    margin-top: 20px;
+}

@@ -1,0 +1,52 @@
+<div class="body">
+    <div class="form">
+        <div class="msg">
+            <h2>Hii {{data.Name}},</h2>
+            <p>Your Diwali wish to {{data.fName}} is successfully created.
+                We wish you a Happy Diwali to you. Your wish is
+                very precious to us,so you can use the url for lifetime .
+                Also, you can share your wish to other loved ones.</p>
+        </div>
+
+        <div class="line"></div>
+
+        <div class="person">
+            <h4>For {{data.fName}}</h4>
+
+            <button class="btn btn-classic btn1" (click)="sendmail()">Send Email</button><br>
+            <button class="btn btn-classic btn2" (click)="preview()" >Preview</button>
+            
+            <label class="btninside">
+                <input type="text" value="https://diwaliwishes2022.herokuapp.com/wish/{{data._id}}" #inp1 id="input"  readonly>
+                <button class="btn btn-classic btn3" (click)="click(inp1)" (click)="change()">{{cp}}</button>
+            </label>
+               
+            
+            <button class="btn btn-classic btn4"><i class="fa-brands fa-whatsapp"></i> Share to {{data.fName}}</button>
+
+
+        </div>
+        <div class="line"></div>
+        
+
+        <div class="other">
+
+            <h4>For your other friends</h4>
+
+            <!-- <button class="btn btn-classic btn1">Send Email</button><br> -->
+            
+            <label class="btninside">
+                <input type="text" value="https://diwaliwishes2022.herokuapp.com/wish-all" #inp2 id="input" #userinput  readonly>
+                <button class="btn btn-classic btn3"  value="click to copy" (click)="click1(inp2)" (click)="change1()" >{{cp1}}</button>
+            </label>
+            <button class="btn btn-classic btn2" id="pdd" (click)="previewall()"  >Preview</button>
+               
+            
+            <button class="btn btn-classic btn4"><i class="fa-brands fa-whatsapp"></i> Share to friends </button>
+            <!-- <button class="btn btn-classic btn4"  value="click to copy" >Copy this</button> -->
+
+
+        </div>
+
+    </div>
+</div>
